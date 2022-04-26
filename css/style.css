@@ -1,0 +1,275 @@
+@import "null.css";
+@import "fonts.css";
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+[class*="__container"] {
+    margin: 0px auto;
+    max-width: 1020px;
+}
+
+.header {
+}
+
+.white-block {
+    width: 100%;
+    background: #F5F5F5;
+    padding-bottom: 190px;
+    position: relative;
+    z-index: 2;
+}
+.white-block::before {
+    content: "";
+    position: absolute;
+    width: 373px;
+    height: 190px;
+    top: 0;
+    left: 0;
+    background: url(../img/blob-white.png) 0 -1384px no-repeat;
+}
+.main {
+    /* display: flex;
+    flex-direction: column-reverse; */
+}
+.our-impact {
+    padding: 112px 0px 112px 0px;
+    /* max-width: 1020px; */
+    background: #29C3BE;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+.our-impact__container {
+
+}
+.our-impact__container::before{
+    content: "";
+    background: url(../img/blob-green.png) 0 0 no-repeat;
+    width: 695px;
+    height: 308px;
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    z-index: 0;
+}
+
+.our-impact__container::after{
+    content: "";
+    background: url(../img/dog.png) 0 0 no-repeat;
+    width: 498px;
+    height: 315px;
+    position: absolute;
+    top: -80px;
+    right: 210px;
+    border-radius: 40px;
+    z-index: 0;
+}
+.our-impact__subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 30px;
+    position: relative;
+    letter-spacing: 2.5px;
+    margin-bottom: 32px;
+    z-index: 2;
+}
+.our-impact__subtitle:before {
+    content: "";
+    background: url(../img/ico/overline-mark.png) 0 0 no-repeat;
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: -2px;
+    left: -5px;
+}
+
+.our-impact__title {
+    max-width: 411px;
+font-size: 36px;
+font-weight: 900;
+line-height: 42px;
+margin-bottom: 79px;
+position: relative;
+z-index: 2;
+}
+
+
+.our-impact__numbers {
+}
+.row-numbers {
+    display: flex;
+    flex-basis: 1020px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.row-numbers__item {
+padding-left: 90px;
+position: relative;
+}
+
+.row-numbers__item:nth-child(1)::before {
+    content: "";
+    background: url(../img/ico/dog_duckling_24x.png) 0 0 no-repeat;
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    }
+
+    .row-numbers__item:nth-child(2)::before {
+    content: "";
+    background: url(../img/ico/dog_house_24px.png) 0 0 no-repeat;
+    width: 76px;
+        height: 76px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        }
+
+.row-numbers__item:nth-child(3)::before {
+            content: "";
+            background: url(../img/ico/dog_leash_24x.png) 0 0 no-repeat;
+            width: 76px;
+            height: 76px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            }
+.row-numbers__item:nth-child(4)::before {
+                content: "";
+                background: url(../img/ico/dog_food_bowl_24x.png) 0 0 no-repeat;
+                width: 76px;
+                height: 76px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                }
+
+.row-numbers__number {
+    color: #fff;
+font-size: 36px;
+font-weight: 900;
+line-height: 42px;
+margin: 5px 0px;
+}
+.row-numbers__text {
+    color: #5D62B5;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.15px;
+}
+
+.our-promise-to-you {
+    padding: 86px 0 122px 0;
+    color: #000;
+}
+.our-promise-to-you__container {
+}
+.our-promise-to-you__subtitle {
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2.5px;
+position: relative;
+padding-left: 30px;
+color: #5D62B5;
+margin-bottom: 33px;
+}
+
+.our-promise-to-you__subtitle:before {
+    content: "";
+    background: url(../img/ico/overline-viola.png) 0 0 no-repeat;
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: -2px;
+    left: -5px;
+}
+
+.our-promise-to-you__title {
+font-size: 36px;
+font-weight: 900;
+line-height: 42px;
+max-width: 583px;
+margin-bottom: 68px;
+}
+.our-promise-to-you__row {
+}
+.row-love-care {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1020px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.row-love-care__item {
+    flex-basis: 324px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding-left: 90px;
+    position: relative;
+}
+
+.row-love-care__item:nth-child(1)::before {
+    content: "";
+    background: url(../img/ico/dog_love_24x.png) 0 0 no-repeat;
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    }
+
+.row-love-care__item:nth-child(2)::before {
+    content: "";
+    background: url(../img/ico/dog_vet_24x.png) 0 0 no-repeat;
+    width: 76px;
+        height: 76px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        }
+
+.row-love-care__item:nth-child(3)::before {
+            content: "";
+            background: url(../img/ico/dog_stream_24x.png) 0 0 no-repeat;
+            width: 76px;
+            height: 76px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            }
+
+.row-love-care__title {
+font-size: 19px;
+font-weight: 900;
+line-height: 26px;
+color: #F2726F;
+}
+.row-love-care__text {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.15px;
+}
+.footer {
+}
